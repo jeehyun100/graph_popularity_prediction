@@ -1,0 +1,14 @@
+torch==1.7.1
+torchaudio==0.7.2
+torchvision==0.8.2
+torch-scatter==2.0.5
+torch-geometric==1.6.3
+torch-sparse==0.6.8
+torch-cluster==1.5.8
+dgl==0.5.3
+pandas==1.1.2
+networkx==2.5
+matplotlib==3.3.2
+scipy==1.5.2
+stellargraph==1.2.1
+ipython==7.19.0
