@@ -183,7 +183,7 @@ def main():
     pos_file = "./obj/spring_layout_pos.pkl"
 
     """ Library """
-    communities = asyn_lpa_communities(G=g2, pos_file=pos_file, limit_epoch=5000000, chk_dir=checkpoint_dir,
+    communities = asyn_lpa_communities(G=g2, pos_file=pos_file, limit_epoch=100, chk_dir=checkpoint_dir,
                                        base_dir=base_dir, weight=None)  # Asynchronous
     nx.set_node_attributes(g2, communities, 'community')
 
