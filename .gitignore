@@ -1,0 +1,10 @@
+*.txt
+*.log
+*.png
+*.graphml
+*.bin
+*.pkl
+*.h5
+*.pyc
+*.emb
+

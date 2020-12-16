@@ -106,7 +106,9 @@ def main():
     GraphUtils().show_embedding(embedding_model, all_gen,train_node, 'PPNP')
 
 if __name__ == "__main__":
-    if not os.path.isdir("logs"):
-        os.makedirs("logs")
+    logs_dir = "./logs"
+    os.makedirs(logs_dir, exist_ok=True)
+    result_dir = "./result/"
+    os.makedirs(result_dir, exist_ok=True)
 
     main()
