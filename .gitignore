@@ -2,10 +2,11 @@
 *.log
 *.png
 *.graphml
-*.pkl
 *.h5
 *.pyc
 *.emb
 *.bin
+*.pkl
+
 
 
